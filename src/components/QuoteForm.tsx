@@ -87,7 +87,7 @@ const QuoteForm = () => {
           </div>
           
           {/* Form Content */}
-          <form ref={formRef} action="/api/mail.php" method="POST" className="p-8">
+          <form ref={formRef} action="/sendmail.php" method="POST" className="p-8">
             <input type="text" name="website" style={{ display: 'none' }} />
             <CurrentStepComponent />
             
