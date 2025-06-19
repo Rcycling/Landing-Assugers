@@ -71,8 +71,8 @@ try {
     $mail->Body = $body;
 
     if ($mail->send()) {
-        header('Content-Type: application/json');
-        echo json_encode(['status' => 'success']);
+        header('Location: /merci.html');
+        exit;
     } else {
         header('Content-Type: application/json');
         echo json_encode(['status' => 'error', 'error' => $mail->ErrorInfo]);
