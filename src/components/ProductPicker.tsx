@@ -55,12 +55,12 @@ const ProductPicker = () => {
                 key={product.id}
                 onClick={() => handleProductSelect(product.id)}
                 className={`cursor-pointer bg-white rounded-xl p-8 shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border-2 ${
-                  selectedProduct === product.id ? 'border-[#c4b5fd]' : 'border-transparent'
+                  selectedProduct === product.id ? 'border-[#E53935]' : 'border-transparent'
                 }`}
               >
                 <div className="text-center">
                   <div className="mb-6 flex justify-center">
-                    <div className="bg-[#c4b5fd] text-white p-4 rounded-full">
+                    <div className="bg-[#E53935] text-white p-4 rounded-full">
                       <Icon className="w-8 h-8" />
                     </div>
                   </div>

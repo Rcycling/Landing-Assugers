@@ -55,15 +55,15 @@ const FAQ = () => {
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full px-6 py-4 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-[#8b5cf6] focus:ring-offset-2 rounded-lg"
+                className="w-full px-6 py-4 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-[#E53935] focus:ring-offset-2 rounded-lg"
               >
                 <span className="text-lg font-semibold text-gray-900">
                   {faq.question}
                 </span>
                 {openIndex === index ? (
-                  <ChevronUp className="w-5 h-5 text-[#c4b5fd] flex-shrink-0" />
+                  <ChevronUp className="w-5 h-5 text-[#E53935] flex-shrink-0" />
                 ) : (
-                  <ChevronDown className="w-5 h-5 text-[#c4b5fd] flex-shrink-0" />
+                  <ChevronDown className="w-5 h-5 text-[#E53935] flex-shrink-0" />
                 )}
               </button>
               

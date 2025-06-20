@@ -49,7 +49,7 @@ const QuoteForm = () => {
 
 
   return (
-    <section id="quote-form" className="py-16 bg-gradient-to-br from-[#c4b5fd] to-[#a78bfa]">
+    <section id="quote-form" className="py-16 bg-gradient-to-br from-[#E53935] to-[#43A047]">
       <div className="max-w-4xl mx-auto px-4">
         <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
           {/* Header */}
@@ -65,20 +65,20 @@ const QuoteForm = () => {
                   <div className="flex items-center flex-shrink-0">
                     <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold ${
                       currentStep >= step.id 
-                        ? 'bg-[#8b5cf6] text-white' 
+                        ? 'bg-[#E53935] text-white' 
                         : 'bg-gray-200 text-gray-600'
                     }`}>
                       {index + 1}
                     </div>
                     <span className={`ml-2 text-xs md:text-sm font-medium ${
-                      currentStep >= step.id ? 'text-[#8b5cf6]' : 'text-gray-500'
+                      currentStep >= step.id ? 'text-[#E53935]' : 'text-gray-500'
                     }`}>
                       {step.name}
                     </span>
                   </div>
                   {index < steps.length - 1 && (
                     <div className={`flex-1 h-0.5 min-w-[20px] ${
-                      currentStep > step.id ? 'bg-[#8b5cf6]' : 'bg-gray-200'
+                      currentStep > step.id ? 'bg-[#E53935]' : 'bg-gray-200'
                     }`} />
                   )}
                 </React.Fragment>
@@ -111,7 +111,7 @@ const QuoteForm = () => {
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="flex items-center space-x-2 bg-[#8b5cf6] hover:bg-[#7c3aed] text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
+                  className="flex items-center space-x-2 bg-[#E53935] hover:bg-[#43A047] text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   <span>Suivant</span>
                   <ArrowRight className="w-5 h-5" />
@@ -125,7 +125,7 @@ const QuoteForm = () => {
                   className={`flex items-center space-x-2 px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl ${
                     isSubmitting 
                       ? 'bg-gray-400 cursor-not-allowed' 
-                      : 'bg-[#8b5cf6] hover:bg-[#7c3aed] text-white'
+                      : 'bg-[#E53935] hover:bg-[#43A047] text-white'
                   }`}
                 >
                   <span>{isSubmitting ? 'Envoi en cours...' : 'Envoyer ma demande'}</span>

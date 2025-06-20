@@ -71,7 +71,7 @@ const WhyUs = () => {
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
                 <div className="mb-6 flex justify-center">
-                  <div className="bg-gradient-to-br from-[#c4b5fd] to-[#a78bfa] text-white p-6 rounded-full shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:-translate-y-2 group-hover:scale-110">
+                  <div className="bg-gradient-to-br from-[#E53935] to-[#43A047] text-white p-6 rounded-full shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:-translate-y-2 group-hover:scale-110">
                     <Icon className="w-8 h-8" />
                   </div>
                 </div>

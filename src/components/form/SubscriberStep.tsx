@@ -24,7 +24,7 @@ const SubscriberStep = () => {
             name="birthDate"
             value={formData.subscriber?.birthDate || ''}
             onChange={(e) => handleInputChange('birthDate', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#E53935] focus:border-transparent transition-all duration-300"
             required
           />
         </div>
@@ -37,7 +37,7 @@ const SubscriberStep = () => {
             name="profession"
             value={formData.subscriber?.profession || ''}
             onChange={(e) => handleInputChange('profession', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#E53935] focus:border-transparent transition-all duration-300"
             required
           >
             <option value="">Sélectionnez</option>
@@ -57,7 +57,7 @@ const SubscriberStep = () => {
             name="maritalStatus"
             value={formData.subscriber?.maritalStatus || ''}
             onChange={(e) => handleInputChange('maritalStatus', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#E53935] focus:border-transparent transition-all duration-300"
             required
           >
             <option value="">Sélectionnez</option>
@@ -78,7 +78,7 @@ const SubscriberStep = () => {
             name="postalCode"
             value={formData.subscriber?.postalCode || ''}
             onChange={(e) => handleInputChange('postalCode', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#E53935] focus:border-transparent transition-all duration-300"
             placeholder="Ex: 75001"
             required
           />
@@ -93,7 +93,7 @@ const SubscriberStep = () => {
             name="city"
             value={formData.subscriber?.city || ''}
             onChange={(e) => handleInputChange('city', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#E53935] focus:border-transparent transition-all duration-300"
             placeholder="Ex: Paris, Lyon..."
             required
           />
