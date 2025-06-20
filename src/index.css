@@ -32,7 +32,7 @@ input:focus,
 select:focus,
 textarea:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.1);
+  box-shadow: 0 0 0 3px rgba(67, 160, 71, 0.1);
 }
 
 /* Smooth transitions for all interactive elements */
@@ -53,12 +53,12 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #83191d;
+  background: #E53935;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a02328;
+  background: #C62828;
 }
 
 /* Prose styles for better readability */
@@ -67,7 +67,7 @@ textarea {
 }
 
 .prose a {
-  color: #16a34a;
+  color: #43A047;
   text-decoration: none;
   font-weight: 500;
 }

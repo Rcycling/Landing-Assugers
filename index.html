@@ -7,8 +7,7 @@
     <title>Assurance permis suspendu, malussé ou résilié – Devis en 3 min | Assugeris</title>
     <meta name="description" content="Besoin d'une assurance auto ou moto après retrait de permis ? Assugeris trouve la meilleure offre. Service rapide, 20 ans d'expertise risques aggravés. Devis gratuit immédiat !" />
     
-    <!-- GOOGLE ADS GLOBAL TAG – TO BE REPLACED -->
-    <!-- Conversion event aw_lead goes here -->
+    <!-- GOOGLE TAG HEAD: coller ici les <script> du GTM -->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,37 +15,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <form id="contact-form" style="margin-top:2rem">
-      <input type="text" name="name" placeholder="Prénom" required />
-      <input type="email" name="email" placeholder="Email" required />
-      <input type="text" name="subject" placeholder="Sujet" required />
-      <textarea name="message" placeholder="Message" required></textarea>
-      <button type="submit">Envoyer</button>
-    </form>
-    <div id="form-response"></div>
-    <script>
-      const form = document.getElementById('contact-form');
-      form?.addEventListener('submit', function (e) {
-        e.preventDefault();
-        fetch('sendmail.php', {
-          method: 'POST',
-          body: new FormData(form)
-        })
-          .then((r) => r.json())
-          .then((data) => {
-            const el = document.getElementById('form-response');
-            if (data.status === 'success') {
-              el.textContent = 'Message envoyé !';
-            } else {
-              el.textContent = data.error || 'Erreur';
-            }
-          })
-          .catch(() => {
-            const el = document.getElementById('form-response');
-            el.textContent = 'Erreur réseau';
-          });
-      });
-    </script>
+    <!-- GOOGLE TAG BODY: coller ici le noscript -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -54,7 +54,7 @@ const LicenseHistoryStep = () => {
                 name="autoLicenseDate"
                 value={formData.license?.autoLicenseDate || ''}
                 onChange={(e) => handleInputChange('license', 'autoLicenseDate', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               />
             </div>
             
@@ -70,7 +70,7 @@ const LicenseHistoryStep = () => {
                     value="yes"
                     checked={formData.license?.autoInsured === 'yes'}
                     onChange={(e) => handleInputChange('license', 'autoInsured', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Oui</span>
                 </label>
@@ -81,7 +81,7 @@ const LicenseHistoryStep = () => {
                     value="no"
                     checked={formData.license?.autoInsured === 'no'}
                     onChange={(e) => handleInputChange('license', 'autoInsured', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Non</span>
                 </label>
@@ -97,7 +97,7 @@ const LicenseHistoryStep = () => {
                 name="autoBonus"
                 value={formData.license?.autoBonus || ''}
                 onChange={(e) => handleInputChange('license', 'autoBonus', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 placeholder="Ex: 0.50"
               />
             </div>
@@ -111,7 +111,7 @@ const LicenseHistoryStep = () => {
                 name="autoTerminationDate"
                 value={formData.license?.autoTerminationDate || ''}
                 onChange={(e) => handleInputChange('license', 'autoTerminationDate', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               />
             </div>
             
@@ -123,7 +123,7 @@ const LicenseHistoryStep = () => {
                 name="autoTerminationReason"
                 value={formData.license?.autoTerminationReason || ''}
                 onChange={(e) => handleInputChange('license', 'autoTerminationReason', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               >
                 <option value="">Sélectionnez</option>
                 <option value="false-declaration">Fausse déclaration</option>
@@ -151,7 +151,7 @@ const LicenseHistoryStep = () => {
                 name="motoLicenseDate"
                 value={formData.license?.motoLicenseDate || ''}
                 onChange={(e) => handleInputChange('license', 'motoLicenseDate', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               />
             </div>
             
@@ -167,7 +167,7 @@ const LicenseHistoryStep = () => {
                     value="yes"
                     checked={formData.license?.motoInsured === 'yes'}
                     onChange={(e) => handleInputChange('license', 'motoInsured', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Oui</span>
                 </label>
@@ -178,7 +178,7 @@ const LicenseHistoryStep = () => {
                     value="no"
                     checked={formData.license?.motoInsured === 'no'}
                     onChange={(e) => handleInputChange('license', 'motoInsured', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Non</span>
                 </label>
@@ -197,7 +197,7 @@ const LicenseHistoryStep = () => {
                     value="yes"
                     checked={formData.license?.motoUnder400Experience === 'yes'}
                     onChange={(e) => handleInputChange('license', 'motoUnder400Experience', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Oui</span>
                 </label>
@@ -208,7 +208,7 @@ const LicenseHistoryStep = () => {
                     value="no"
                     checked={formData.license?.motoUnder400Experience === 'no'}
                     onChange={(e) => handleInputChange('license', 'motoUnder400Experience', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Non</span>
                 </label>
@@ -224,7 +224,7 @@ const LicenseHistoryStep = () => {
                 name="motoBonus"
                 value={formData.license?.motoBonus || ''}
                 onChange={(e) => handleInputChange('license', 'motoBonus', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 placeholder="Ex: 0.50"
               />
             </div>
@@ -238,7 +238,7 @@ const LicenseHistoryStep = () => {
                 name="motoTerminationDate"
                 value={formData.license?.motoTerminationDate || ''}
                 onChange={(e) => handleInputChange('license', 'motoTerminationDate', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               />
             </div>
             
@@ -250,7 +250,7 @@ const LicenseHistoryStep = () => {
                 name="motoTerminationReason"
                 value={formData.license?.motoTerminationReason || ''}
                 onChange={(e) => handleInputChange('license', 'motoTerminationReason', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               >
                 <option value="">Sélectionnez</option>
                 <option value="false-declaration">Fausse déclaration</option>
@@ -274,7 +274,7 @@ const LicenseHistoryStep = () => {
                     value="yes"
                     checked={formData.license?.vehicleBridged === 'yes'}
                     onChange={(e) => handleInputChange('license', 'vehicleBridged', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Oui</span>
                 </label>
@@ -285,7 +285,7 @@ const LicenseHistoryStep = () => {
                     value="no"
                     checked={formData.license?.vehicleBridged === 'no'}
                     onChange={(e) => handleInputChange('license', 'vehicleBridged', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Non</span>
                 </label>
@@ -315,7 +315,7 @@ const LicenseHistoryStep = () => {
                   value="yes"
                   checked={formData.sanctions?.alcoholDrugsSanction === 'yes'}
                   onChange={(e) => handleInputChange('sanctions', 'alcoholDrugsSanction', e.target.value)}
-                  className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                  className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                 />
                 <span>Oui</span>
               </label>
@@ -326,14 +326,14 @@ const LicenseHistoryStep = () => {
                   value="no"
                   checked={formData.sanctions?.alcoholDrugsSanction === 'no'}
                   onChange={(e) => handleInputChange('sanctions', 'alcoholDrugsSanction', e.target.value)}
-                  className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                  className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                 />
                 <span>Non</span>
               </label>
             </div>
             
             {formData.sanctions?.alcoholDrugsSanction === 'yes' && (
-              <div className="pl-4 border-l-2 border-[#16a34a] space-y-4">
+              <div className="pl-4 border-l-2 border-[#43A047] space-y-4">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -344,7 +344,7 @@ const LicenseHistoryStep = () => {
                       name="lastInfractionDate"
                       value={formData.sanctions?.lastInfractionDate || ''}
                       onChange={(e) => handleInputChange('sanctions', 'lastInfractionDate', e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                     />
                   </div>
                   
@@ -357,7 +357,7 @@ const LicenseHistoryStep = () => {
                       name="airLevel"
                       value={formData.sanctions?.airLevel || ''}
                       onChange={(e) => handleInputChange('sanctions', 'airLevel', e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                       placeholder="Ex: 0.25"
                       step="0.01"
                     />
@@ -372,7 +372,7 @@ const LicenseHistoryStep = () => {
                       name="bloodLevel"
                       value={formData.sanctions?.bloodLevel || ''}
                       onChange={(e) => handleInputChange('sanctions', 'bloodLevel', e.target.value)}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                       placeholder="Ex: 0.5"
                       step="0.01"
                     />
@@ -390,7 +390,7 @@ const LicenseHistoryStep = () => {
                           value="yes"
                           checked={formData.sanctions?.accidentControl === 'yes'}
                           onChange={(e) => handleInputChange('sanctions', 'accidentControl', e.target.value)}
-                          className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                          className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                         />
                         <span>Oui</span>
                       </label>
@@ -401,7 +401,7 @@ const LicenseHistoryStep = () => {
                           value="no"
                           checked={formData.sanctions?.accidentControl === 'no'}
                           onChange={(e) => handleInputChange('sanctions', 'accidentControl', e.target.value)}
-                          className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                          className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                         />
                         <span>Non</span>
                       </label>
@@ -425,7 +425,7 @@ const LicenseHistoryStep = () => {
                   value="yes"
                   checked={formData.sanctions?.licenseSuspension === 'yes'}
                   onChange={(e) => handleInputChange('sanctions', 'licenseSuspension', e.target.value)}
-                  className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                  className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                 />
                 <span>Oui</span>
               </label>
@@ -436,14 +436,14 @@ const LicenseHistoryStep = () => {
                   value="no"
                   checked={formData.sanctions?.licenseSuspension === 'no'}
                   onChange={(e) => handleInputChange('sanctions', 'licenseSuspension', e.target.value)}
-                  className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                  className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                 />
                 <span>Non</span>
               </label>
             </div>
             
             {formData.sanctions?.licenseSuspension === 'yes' && (
-              <div className="pl-4 border-l-2 border-[#16a34a]">
+              <div className="pl-4 border-l-2 border-[#43A047]">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Durée
                 </label>
@@ -451,7 +451,7 @@ const LicenseHistoryStep = () => {
                   name="suspensionDuration"
                   value={formData.sanctions?.suspensionDuration || ''}
                   onChange={(e) => handleInputChange('sanctions', 'suspensionDuration', e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 >
                   <option value="">Sélectionnez</option>
                   <option value="less-6-months">&lt; 6 mois</option>
@@ -476,7 +476,7 @@ const LicenseHistoryStep = () => {
                   value="yes"
                   checked={formData.sanctions?.licenseCancellation === 'yes'}
                   onChange={(e) => handleInputChange('sanctions', 'licenseCancellation', e.target.value)}
-                  className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                  className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                 />
                 <span>Oui</span>
               </label>
@@ -487,14 +487,14 @@ const LicenseHistoryStep = () => {
                   value="no"
                   checked={formData.sanctions?.licenseCancellation === 'no'}
                   onChange={(e) => handleInputChange('sanctions', 'licenseCancellation', e.target.value)}
-                  className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                  className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                 />
                 <span>Non</span>
               </label>
             </div>
             
             {formData.sanctions?.licenseCancellation === 'yes' && (
-              <div className="pl-4 border-l-2 border-[#16a34a]">
+              <div className="pl-4 border-l-2 border-[#43A047]">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Motif
                 </label>
@@ -502,7 +502,7 @@ const LicenseHistoryStep = () => {
                   name="cancellationReason"
                   value={formData.sanctions?.cancellationReason || ''}
                   onChange={(e) => handleInputChange('sanctions', 'cancellationReason', e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 >
                   <option value="">Sélectionnez</option>
                   <option value="alcohol">Alcool au volant</option>
@@ -528,7 +528,7 @@ const LicenseHistoryStep = () => {
                 name="license1Date"
                 value={formData.sanctions?.license1Date || ''}
                 onChange={(e) => handleInputChange('sanctions', 'license1Date', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               />
             </div>
             
@@ -541,7 +541,7 @@ const LicenseHistoryStep = () => {
                 name="license2Date"
                 value={formData.sanctions?.license2Date || ''}
                 onChange={(e) => handleInputChange('sanctions', 'license2Date', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               />
             </div>
           </div>
@@ -560,7 +560,7 @@ const LicenseHistoryStep = () => {
                     value="yes"
                     checked={formData.sanctions?.judgment === 'yes'}
                     onChange={(e) => handleInputChange('sanctions', 'judgment', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Oui</span>
                 </label>
@@ -571,7 +571,7 @@ const LicenseHistoryStep = () => {
                     value="no"
                     checked={formData.sanctions?.judgment === 'no'}
                     onChange={(e) => handleInputChange('sanctions', 'judgment', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Non</span>
                 </label>
@@ -590,7 +590,7 @@ const LicenseHistoryStep = () => {
                     value="yes"
                     checked={formData.sanctions?.hitAndRun === 'yes'}
                     onChange={(e) => handleInputChange('sanctions', 'hitAndRun', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Oui</span>
                 </label>
@@ -601,7 +601,7 @@ const LicenseHistoryStep = () => {
                     value="no"
                     checked={formData.sanctions?.hitAndRun === 'no'}
                     onChange={(e) => handleInputChange('sanctions', 'hitAndRun', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Non</span>
                 </label>
@@ -620,7 +620,7 @@ const LicenseHistoryStep = () => {
                     value="yes"
                     checked={formData.sanctions?.otherConvictions === 'yes'}
                     onChange={(e) => handleInputChange('sanctions', 'otherConvictions', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Oui</span>
                 </label>
@@ -631,14 +631,14 @@ const LicenseHistoryStep = () => {
                     value="no"
                     checked={formData.sanctions?.otherConvictions === 'no'}
                     onChange={(e) => handleInputChange('sanctions', 'otherConvictions', e.target.value)}
-                    className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                    className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                   />
                   <span>Non</span>
                 </label>
               </div>
               
               {formData.sanctions?.otherConvictions === 'yes' && (
-                <div className="pl-4 border-l-2 border-[#16a34a]">
+                <div className="pl-4 border-l-2 border-[#43A047]">
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Décrivez la situation
                   </label>
@@ -647,7 +647,7 @@ const LicenseHistoryStep = () => {
                     value={formData.sanctions?.otherConvictionsDetails || ''}
                     onChange={(e) => handleInputChange('sanctions', 'otherConvictionsDetails', e.target.value)}
                     rows={3}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                     placeholder="Décrivez les circonstances..."
                   />
                 </div>
@@ -668,7 +668,7 @@ const LicenseHistoryStep = () => {
                   name="drugsLastInfractionDate"
                   value={formData.sanctions?.drugsLastInfractionDate || ''}
                   onChange={(e) => handleInputChange('sanctions', 'drugsLastInfractionDate', e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 />
               </div>
               
@@ -683,7 +683,7 @@ const LicenseHistoryStep = () => {
                         type="checkbox"
                         checked={(formData.sanctions?.substances || []).includes(substance)}
                         onChange={(e) => handleMultiSelectChange('sanctions', 'substances', substance, e.target.checked)}
-                        className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                        className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                       />
                       <span className="text-sm">{substance}</span>
                     </label>
@@ -700,7 +700,7 @@ const LicenseHistoryStep = () => {
                   name="drugsLevel"
                   value={formData.sanctions?.drugsLevel || ''}
                   onChange={(e) => handleInputChange('sanctions', 'drugsLevel', e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                   placeholder="Ex: 2.5"
                   step="0.1"
                 />
@@ -718,7 +718,7 @@ const LicenseHistoryStep = () => {
               value={formData.sanctions?.otherInfractions || ''}
               onChange={(e) => handleInputChange('sanctions', 'otherInfractions', e.target.value)}
               rows={3}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               placeholder="Décrivez les autres infractions..."
             />
           </div>

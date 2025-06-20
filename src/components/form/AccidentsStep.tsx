@@ -61,7 +61,7 @@ const AccidentsStep = () => {
                   name={`accidentDate_${index}`}
                   value={accident.date || ''}
                   onChange={(e) => handleAccidentChange(index, 'date', e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 />
               </div>
               
@@ -73,7 +73,7 @@ const AccidentsStep = () => {
                   name={`accidentNature_${index}`}
                   value={accident.nature || ''}
                   onChange={(e) => handleAccidentChange(index, 'nature', e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 >
                   <option value="">Sélectionnez</option>
                   <option value="material">Matériel</option>
@@ -92,7 +92,7 @@ const AccidentsStep = () => {
                   name={`accidentResponsibility_${index}`}
                   value={accident.responsibility || ''}
                   onChange={(e) => handleAccidentChange(index, 'responsibility', e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 >
                   <option value="">Sélectionnez</option>
                   <option value="0">0</option>
@@ -110,7 +110,7 @@ const AccidentsStep = () => {
                   value={accident.details || ''}
                   onChange={(e) => handleAccidentChange(index, 'details', e.target.value)}
                   rows={2}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                   placeholder="Circonstances, dégâts..."
                 />
               </div>
@@ -122,7 +122,7 @@ const AccidentsStep = () => {
           <button
             type="button"
             onClick={addAccident}
-            className="flex items-center space-x-2 text-[#16a34a] hover:text-[#15803d] transition-colors duration-300"
+            className="flex items-center space-x-2 text-[#43A047] hover:text-[#2E7D32] transition-colors duration-300"
           >
             <Plus className="w-5 h-5" />
             <span>Ajouter un sinistre</span>

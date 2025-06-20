@@ -40,7 +40,7 @@ const NeedStep = () => {
               name="vehicleLicensePlate"
               value={formData.need?.vehicleLicensePlate || ''}
               onChange={(e) => handleInputChange('vehicleLicensePlate', e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               placeholder="Ex: AB-123-CD"
               required
             />
@@ -55,7 +55,7 @@ const NeedStep = () => {
               name="vehicleBrand"
               value={formData.need?.vehicleBrand || ''}
               onChange={(e) => handleInputChange('vehicleBrand', e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               placeholder="Ex: Peugeot, Renault..."
             />
           </div>
@@ -69,7 +69,7 @@ const NeedStep = () => {
               name="vehicleModel"
               value={formData.need?.vehicleModel || ''}
               onChange={(e) => handleInputChange('vehicleModel', e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               placeholder="Ex: 308, Clio..."
             />
           </div>
@@ -83,7 +83,7 @@ const NeedStep = () => {
               name="vehicleFinition"
               value={formData.need?.vehicleFinition || ''}
               onChange={(e) => handleInputChange('vehicleFinition', e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
               placeholder={selectedProduct === 'car' ? 'Ex: Allure, GT Line...' : 'Ex: 125cc, 600cc...'}
             />
           </div>
@@ -97,7 +97,7 @@ const NeedStep = () => {
               name="vehicleFirstRegistration"
               value={formData.need?.vehicleFirstRegistration || ''}
               onChange={(e) => handleInputChange('vehicleFirstRegistration', e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
             />
           </div>
           
@@ -111,7 +111,7 @@ const NeedStep = () => {
                 name="vehicleFiscalPower"
                 value={formData.need?.vehicleFiscalPower || ''}
                 onChange={(e) => handleInputChange('vehicleFiscalPower', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
                 placeholder="Ex: 7 CV"
               />
             </div>
@@ -125,7 +125,7 @@ const NeedStep = () => {
               name="vehicleFuel"
               value={formData.need?.vehicleFuel || ''}
               onChange={(e) => handleInputChange('vehicleFuel', e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
             >
               <option value="">Sélectionnez</option>
               <option value="gasoline">Essence</option>
@@ -148,7 +148,7 @@ const NeedStep = () => {
                   type="checkbox"
                   checked={(formData.need?.guarantees || []).includes(guarantee)}
                   onChange={(e) => handleMultiSelectChange('guarantees', guarantee, e.target.checked)}
-                  className="mr-2 text-[#16a34a] focus:ring-[#16a34a]"
+                  className="mr-2 text-[#43A047] focus:ring-[#43A047]"
                 />
                 <span className="text-sm">{guarantee}</span>
               </label>
@@ -166,7 +166,7 @@ const NeedStep = () => {
           name="insuranceNeed"
           value={formData.need?.insuranceNeed || ''}
           onChange={(e) => handleInputChange('insuranceNeed', e.target.value)}
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43A047] focus:border-transparent transition-all duration-300"
           required
         >
           <option value="">Sélectionnez votre besoin</option>
@@ -184,7 +184,7 @@ const NeedStep = () => {
             name="gdprConsent"
             checked={formData.need?.gdprConsent || false}
             onChange={(e) => handleInputChange('gdprConsent', e.target.checked.toString())}
-            className="mt-1 h-4 w-4 text-[#16a34a] focus:ring-[#16a34a] border-gray-300 rounded"
+            className="mt-1 h-4 w-4 text-[#43A047] focus:ring-[#43A047] border-gray-300 rounded"
             required
           />
           <span className="text-sm text-gray-700">

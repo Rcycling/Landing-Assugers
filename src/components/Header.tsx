@@ -23,7 +23,7 @@ const Header = () => {
             <button
               onClick={scrollToForm}
               data-gtag="cta-quote"
-              className="bg-[#16a34a] hover:bg-[#15803d] text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl text-sm md:text-base"
+              className="bg-[#43A047] hover:bg-[#388E3C] text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl text-sm md:text-base"
             >
               Commencer mon devis
             </button>
@@ -32,7 +32,7 @@ const Header = () => {
               href="https://www.assugeris-espace-assurances.fr/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#16a34a] hover:bg-[#15803d] text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl text-sm md:text-base"
+              className="bg-[#43A047] hover:bg-[#388E3C] text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl text-sm md:text-base"
             >
               Plus d'informations
             </a>
