@@ -57,7 +57,7 @@ try {
     $mail->isHTML(true);
 
     $body = "<html><body style='font-family:Arial,sans-serif'>" .
-        "<div style='background:#a02328;color:#fff;padding:20px;text-align:center'>" .
+        "<div style='background:#a78bfa;color:#fff;padding:20px;text-align:center'>" .
         "<h2 style='margin:0'>Nouveau message de contact</h2></div>" .
         "<table style='width:100%;border-collapse:collapse;margin-top:15px'>" .
         "<tr><td style='padding:8px;border:1px solid #ddd'><b>Prénom</b></td><td style='padding:8px;border:1px solid #ddd'>" . $name . "</td></tr>" .

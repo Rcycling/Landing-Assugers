@@ -24,7 +24,7 @@ const ContactStep = () => {
             name="firstName"
             value={formData.contact?.firstName || ''}
             onChange={(e) => handleInputChange('firstName', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
             required
           />
         </div>
@@ -38,7 +38,7 @@ const ContactStep = () => {
             name="lastName"
             value={formData.contact?.lastName || ''}
             onChange={(e) => handleInputChange('lastName', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
             required
           />
         </div>
@@ -52,7 +52,7 @@ const ContactStep = () => {
             name="email"
             value={formData.contact?.email || ''}
             onChange={(e) => handleInputChange('email', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
             required
           />
         </div>
@@ -66,7 +66,7 @@ const ContactStep = () => {
             name="phone"
             value={formData.contact?.phone || ''}
             onChange={(e) => handleInputChange('phone', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
             required
           />
         </div>
@@ -81,7 +81,7 @@ const ContactStep = () => {
           value={formData.contact?.message || ''}
           onChange={(e) => handleInputChange('message', e.target.value)}
           rows={4}
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#16a34a] focus:border-transparent transition-all duration-300"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#8b5cf6] focus:border-transparent transition-all duration-300"
           placeholder="Précisions sur votre situation, questions particulières..."
         />
       </div>

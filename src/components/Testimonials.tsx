@@ -125,7 +125,7 @@ const Testimonials = () => {
                 key={index}
                 onClick={() => setCurrentTestimonial(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentTestimonial ? 'bg-[#83191d]' : 'bg-gray-300 hover:bg-gray-400'
+                  index === currentTestimonial ? 'bg-[#c4b5fd]' : 'bg-gray-300 hover:bg-gray-400'
                 }`}
               />
             ))}
@@ -137,7 +137,7 @@ const Testimonials = () => {
           {keyWords.map((keyword, index) => (
             <span
               key={index}
-              className="bg-[#83191d] text-white px-4 py-2 rounded-full text-sm font-medium"
+              className="bg-[#c4b5fd] text-white px-4 py-2 rounded-full text-sm font-medium"
             >
               {keyword}
             </span>
