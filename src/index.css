@@ -53,12 +53,12 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #83191d;
+  background: #c4b5fd;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a02328;
+  background: #a78bfa;
 }
 
 /* Prose styles for better readability */
@@ -67,7 +67,7 @@ textarea {
 }
 
 .prose a {
-  color: #16a34a;
+  color: #8b5cf6;
   text-decoration: none;
   font-weight: 500;
 }
