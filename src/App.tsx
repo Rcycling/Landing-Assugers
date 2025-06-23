@@ -3,7 +3,7 @@ import TopContactBar from './components/TopContactBar';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import WhyUs from './components/WhyUs';
-import QuoteForm from './components/QuoteForm';
+import WarningPage from './components/WarningPage';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import LegalBand from './components/LegalBand';
@@ -18,7 +18,7 @@ function App() {
         <Header />
         <Hero />
         <WhyUs />
-        <QuoteForm />
+        <WarningPage />
         <Testimonials />
         <FAQ />
         <SEOFooter />

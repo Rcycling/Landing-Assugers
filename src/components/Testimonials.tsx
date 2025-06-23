@@ -7,19 +7,19 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Laurent Che",
+      name: "Client",
       duration: "4 ans",
       rating: 5,
       text: "Cela fait deux fois que je fais appel à Assugeris, une fois pour le scooter de mon fils et une fois pour sa voiture. Service impeccable, très professionnel et réactif."
     },
     {
-      name: "Bouchon san",
+      name: "Client",
       duration: "1 an",
       rating: 5,
       text: "Contact très bien, réactifs, à l'écoute. Je recommande vivement leurs services."
     },
     {
-      name: "Sylvie Bottero",
+      name: "Client",
       duration: "6 ans",
       rating: 5,
       text: "Très bon accueil, merci pour votre professionnalisme et votre réactivité."
@@ -31,7 +31,7 @@ const Testimonials = () => {
       text: "Je recommande Assugeris, contact rapide et à l'écoute. Merci pour votre aide précieuse."
     },
     {
-      name: "Linda Lamoly",
+      name: "Client",
       duration: "2 ans",
       rating: 5,
       text: "Rapide, efficace. Très satisfaite du service client et de la réactivité de l'équipe."
@@ -67,13 +67,13 @@ const Testimonials = () => {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Avis Google – 4,6★
+            Avis client – 4,2★
           </h2>
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <span className="text-2xl font-bold text-gray-900">4.6</span>
+            <span className="text-2xl font-bold text-gray-900">4.2</span>
             <div className="flex space-x-1">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className={`w-6 h-6 ${i < 4 ? 'fill-yellow-400 text-yellow-400' : i === 4 ? 'fill-yellow-400/60 text-yellow-400' : 'fill-gray-300 text-gray-300'}`} />
+                <Star key={i} className={`w-6 h-6 ${i < 4 ? 'fill-yellow-400 text-yellow-400' : i === 4 ? 'fill-yellow-400/20 text-yellow-400' : 'fill-gray-300 text-gray-300'}`} />
               ))}
             </div>
           </div>
