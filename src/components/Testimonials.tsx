@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Testimonials = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -67,27 +67,14 @@ const Testimonials = () => {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Avis client – 4,2★
+            Avis clients
           </h2>
-          <div className="flex items-center justify-center space-x-2 mb-4">
-            <span className="text-2xl font-bold text-gray-900">4.2</span>
-            <div className="flex space-x-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className={`w-6 h-6 ${i < 4 ? 'fill-yellow-400 text-yellow-400' : i === 4 ? 'fill-yellow-400/20 text-yellow-400' : 'fill-gray-300 text-gray-300'}`} />
-              ))}
-            </div>
-          </div>
         </div>
         
         <div className="relative">
           <div className="bg-white rounded-2xl shadow-lg p-8 min-h-[200px] flex items-center">
             <div className="w-full">
-              <div className="flex justify-center space-x-1 mb-6">
-                {[...Array(testimonials[currentTestimonial].rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              
+
               <blockquote className="text-lg md:text-xl text-gray-700 text-center mb-6 leading-relaxed">
                 "{testimonials[currentTestimonial].text}"
               </blockquote>
@@ -106,14 +93,14 @@ const Testimonials = () => {
           {/* Navigation Buttons */}
           <button
             onClick={() => handleNavigation('prev')}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:shadow-xl transition-all duration-300"
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:shadow-xl transition-all duration-300 z-10"
           >
             <ChevronLeft className="w-6 h-6 text-gray-600" />
           </button>
           
           <button
             onClick={() => handleNavigation('next')}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:shadow-xl transition-all duration-300"
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:shadow-xl transition-all duration-300 z-10"
           >
             <ChevronRight className="w-6 h-6 text-gray-600" />
           </button>

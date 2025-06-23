@@ -2,7 +2,12 @@ import React from 'react';
 
 const Header = () => {
   const scrollToForm = () => {
-    document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' });
+    const form = document.getElementById('quote-form');
+    if (form) {
+      const yOffset = -80; // offset for sticky header
+      const y = form.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
   };
 
   return (
